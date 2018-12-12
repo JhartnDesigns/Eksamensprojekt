@@ -84,25 +84,7 @@ nav li a {
     color: #000000;
 }
 
-.moenster {
-  position: relative;
-  text-align: left;
-  color: white;
-  width: 100%;
-}
 
-.gamebased {
-  position: absolute;
-  top: 8%;
-  left: 15%;
-  width: 50%;
-}
-.infografik {
-  position: absolute;
-  bottom: 8%;
-  rigth: 5%;
-  width: 50%;
-}
 
 
 #navmobile {
@@ -122,7 +104,27 @@ nav li a {
 /*Generel styling slut*/
 
 /*Forside styling*/
+.moenster {
+  position: relative;
+  text-align: left;
+  color: white;
+  width: 100%;
+}
 
+.gamebased {
+  position: absolute;
+  top: 8%;
+  left: 15%;
+  float: right;
+  width: 40%;
+}
+.infografik {
+  position: absolute;
+  bottom: 8%;
+  right: 5%;
+  float: right;
+  width: 50%;
+}
 
 #forsidebillede {
     width: 100%;
@@ -141,4 +143,17 @@ nav li a {
 /*Læringsmateriale styling slut*/
 
 /*Breakpoints*/
+@media only screen and (min-width: 400px) {
+
+}
+
+@media only screen and (min-width: 650px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
 /*Breakpoints slut*/
