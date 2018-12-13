@@ -1,0 +1,168 @@
+/*Generel styling*/
+
+body {
+    line-height: 1;
+    font: 12px/18px Arial, sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.wrapper {
+    min-width: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 5%;
+    font-size: 700%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #004e3c;
+    padding-top: 14%;
+
+}
+
+h4 {
+    background-color: gainsboro;
+    padding: 2%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    margin-bottom: 5%;
+    overflow: auto;
+}
+
+#logo {
+    width: 12%;
+    margin: 0 auto;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+ul {
+    list-style-type: circle;
+    margin-top: 0.3em;
+    -webkit-padding-start: 0;
+    font-size: 0.8em;
+}
+
+#navdesktop {
+    display: none;
+    color: white;
+    font-size: 2em;
+    float: right;
+}
+
+#navikon a{
+    font-size: 2em;
+    padding: 2%;
+    float: right;
+    background-color: white;
+    color: #000000
+}
+
+nav a {
+    text-decoration: none;
+    padding: 4px;
+    color: white;
+}
+
+nav li a {
+    color: #000000;
+}
+
+.siteicon {
+  width: 20%;
+  float: left;
+  margin: 5%;
+}
+
+
+#navmobile {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#navmobile li {
+    padding: 0.8em;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer {
+    clear: both;
+}
+
+/*Generel styling slut*/
+
+/*Forside styling*/
+.moenster {
+  position: relative;
+  text-align: left;
+  color: white;
+  width: 100%;
+}
+
+.gamebased {
+  position: absolute;
+  top: 8%;
+  left: 15%;
+  float: right;
+  width: 40%;
+}
+.infografik {
+  position: absolute;
+  bottom: 8%;
+  right: 5%;
+  float: right;
+  width: 50%;
+}
+
+#forsidebillede {
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 5%;
+}
+
+#forsidebillede img {
+    width: 100%;
+}
+
+/*Forside styling slut*/
+
+/*Læringsmateriale styling*/
+/*Læringsmateriale styling slut*/
+
+/*Breakpoints*/
+@media only screen and (min-width: 400px) {
+
+}
+
+@media only screen and (min-width: 650px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/*Breakpoints slut*/
