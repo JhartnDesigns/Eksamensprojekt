@@ -122,3 +122,47 @@ nav li a {
   width: 12%;
   padding: 0;
 }
+
+#bokset {
+  position: relative;
+  background: url("../billeder/moenster.png");
+}
+
+
+#spilbilleder{
+  position: absolute;
+  float: left;
+  background-color: white;
+  border-radius: 4%;
+  width: 90%;
+  margin: 5%;
+
+}
+
+#billedeet {
+  width: 60%;
+  float: left;
+  margin-bottom: 5%;
+}
+#billedeet img {
+  width: 100%;
+}
+
+#billedeto {
+  width: 60%;
+  float: left;
+  margin-bottom: 5%;
+}
+
+#billedeto img {
+  width: 100%;
+}
+
+#billedetre {
+  width: 60%;
+  float: left;
+}
+
+#billedetre img {
+  width: 100%;
+}
