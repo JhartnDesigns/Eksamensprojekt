@@ -144,26 +144,24 @@ nav li a {
 }
 
 .afsnitto {
-  width: 100%;
-  margin-bottom: 10%;
-}
-
-.moenster {
-  background: url(../billeder/moenster.png);
-  position: relative;
+  background-image: url(../billeder/moenster.png);
+  /*position: relative;*/
   float: left;
   width: 100%;
   height: 100%;
 }
 
 .gamebased {
-  position: absolute;
+  /*position: absolute;*/
   top: 7%;
   left: 5%;
   float: left;
   width: 90%;
   background-color: white;
   border-radius: 4%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .gamebased h2 {
@@ -180,12 +178,14 @@ nav li a {
 }
 
 #infografik {
-  position: absolute;
+  /*position: absolute;*/
   right: 5%;
   top: 55%;
   left: 5%;
   float: left;
   width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 #infografik img {
