@@ -202,14 +202,12 @@ iframe {
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 0;
+  margin-bottom: 0 auto;
+  padding-bottom: 0 auto;
 }
 
-.instragram blockquote{
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 0;
+#posterimage {
+  position: absolute;
 }
 
 #facebook {
