@@ -22,8 +22,10 @@ nav ul li {
 }
 
 h1 {
-    margin-top: 5%;
-    font-size: 2em;
+    margin-top: 7%;
+    margin-bottom: 7&;
+    font-size: 2.5em;
+    float: left;
 }
 
 h4 {
@@ -105,3 +107,62 @@ nav li a {
 }
 
 /*Generel styling slut*/
+
+/* Læreingsmateriale generel styling begyndt*/
+
+#sitetitle{
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+}
+
+#siteicon{
+  width: 12%;
+  padding: 0;
+}
+
+#bokset {
+  position: relative;
+  background: url("../billeder/moenster.png");
+}
+
+
+#spilbilleder{
+  position: absolute;
+  float: left;
+  background-color: white;
+  border-radius: 4%;
+  width: 90%;
+  margin: 5%;
+
+}
+
+#billedeet {
+  width: 60%;
+  float: left;
+  margin-bottom: 5%;
+}
+#billedeet img {
+  width: 100%;
+}
+
+#billedeto {
+  width: 60%;
+  float: left;
+  margin-bottom: 5%;
+}
+
+#billedeto img {
+  width: 100%;
+}
+
+#billedetre {
+  width: 60%;
+  float: left;
+}
+
+#billedetre img {
+  width: 100%;
+}
