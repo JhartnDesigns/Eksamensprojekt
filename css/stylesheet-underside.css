@@ -264,6 +264,20 @@ nav li a {
   height: 100%;
   margin-top: 5%;
 }
+#bokstre {
+  /*position: relative;*/
+  background: url("../billeder/moenster.png");
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+#boksfire {
+  /*position: relative;*/
+  background: url("../billeder/moenster.png");
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
 .downloads {
 
 }
