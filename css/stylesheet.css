@@ -281,15 +281,58 @@ iframe {
 /*Læringsmateriale styling slut*/
 
 /*Breakpoints*/
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 600px) {
+
+  #facebook {
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 2%;
+  }
+
+  #twitter {
+    width: 20%;
+    margin-right: 2%;
+  }
+
+  #youtube {
+    width: 20%;
+    margin-right: 2%;
+  }
+
+  #insta {
+    width: 20%;
+    margin-right: 2%;
+  }
+
+#copyright {
+  width: 45%;
+  margin-left: 5%;
+}
+
+#adresse {width: 50%;}
 
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 700px) {
+
+#infografik {
+
+  width: 30%;
+}
+
+iframe {
+  width: 40%;
+  
 
 }
 
-@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 900px) {
+
+
+}
+@media only screen and (min-width: 1024px) {
 
 
 }
