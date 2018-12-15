@@ -444,6 +444,7 @@ nav li a {
   width: 100%;
   height: 100%;
   margin-top: 20%;
+  float: left;
 }
 
 #bokstrefelt {
@@ -507,10 +508,66 @@ nav li a {
 }
 
 .boksfire {
-  background: url("../billeder/moenster.png");
+  background-color: lightgrey;
+  width: 90%;
+  float: left;
+  margin-top: 10%;
+  margin: 5%;
+  border-radius: 4%;
+}
+
+#boksfiretitel {
+  background-image: url(../billeder/moenster.png);
+  border-radius: 5%;
+}
+
+#boksfiretitel h2 {
+  text-align: center;
+  color: white;
+  border-radius: 5%;
+  padding: 3%;
+  font-size: 2em;
+  font-family: Oswald;
+}
+
+#billedefire {
+  width: 40%;
+  margin: 5%;
+  float: left;
+}
+
+#billedefire img {
   width: 100%;
-  height: 100%;
-  margin-top: 5%;
+}
+
+#billedefem {
+  width: 40%;
+  margin: 5%;
+  float: left;
+}
+
+#billedefem img {
+  width: 100%;
+}
+
+#billedeseks {
+  width: 40%;
+  margin: 5%;
+  float: left;
+}
+
+#billedeseks img {
+  width: 100%;
+}
+
+#billedesyv {
+  width: 40%;
+  margin: 5%;
+  float: left;
+}
+
+#billedesyv img {
+  width: 100%;
 }
 
 #facebook {
