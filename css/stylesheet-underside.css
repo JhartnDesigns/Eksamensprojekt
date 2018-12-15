@@ -531,7 +531,7 @@ nav li a {
 }
 
 #billedefire {
-  width: 40%;
+  width: 20%;
   margin: 5%;
   float: left;
 }
@@ -540,8 +540,17 @@ nav li a {
   width: 100%;
 }
 
+#tekstfire {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 5%;
+  float: left;
+  font-size: 2em;
+  line-height: normal;
+}
+
 #billedefem {
-  width: 40%;
+  width: 20%;
   margin: 5%;
   float: left;
 }
@@ -550,8 +559,17 @@ nav li a {
   width: 100%;
 }
 
+#tekstfem {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 5%;
+  float: left;
+  font-size: 2em;
+  line-height: normal;
+}
+
 #billedeseks {
-  width: 40%;
+  width: 20%;
   margin: 5%;
   float: left;
 }
@@ -560,13 +578,45 @@ nav li a {
   width: 100%;
 }
 
+#tekstseks {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 5%;
+  float: left;
+  font-size: 2em;
+  line-height: normal;
+}
+
 #billedesyv {
-  width: 40%;
+  width: 20%;
   margin: 5%;
   float: left;
 }
 
 #billedesyv img {
+  width: 100%;
+}
+
+#tekstsyv {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 5%;
+  float: left;
+  font-size: 2em;
+  line-height: normal;
+}
+
+.videoer {
+  width: 90%;
+  margin: 5%;
+}
+
+#videoet iframe {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+#videoto iframe {
   width: 100%;
 }
 
