@@ -47,6 +47,7 @@ h4 {
 
 h5 {
     font-size: 1.2em;
+    font-weight: bold;
 }
 
 .header {
@@ -258,12 +259,156 @@ nav li a {
 }
 
 #boksto {
-  /*position: relative;*/
-  background: url("../billeder/moenster.png");
-  width: 100%;
-  height: 100%;
-  margin-top: 5%;
+  background-color: lightgrey;
+  width: 90%;
+  margin: 5%;
+  height: 1030px;
+  border-radius: 4%;
 }
+
+#bokstotitelet {
+  background-image: url(../billeder/moenster.png);
+  border-radius: 5%;
+}
+
+#bokstotitelto {
+  background-image: url(../billeder/moenster.png);
+  border-radius: 5%;
+}
+
+#bokstotitelet h2 {
+  text-align: center;
+  color: white;
+  border-radius: 5%;
+  padding: 3%;
+  font-size: 2em;
+  font-family: Oswald;
+}
+
+#bokstotitelto h2 {
+  text-align: center;
+  color: white;
+  border-radius: 5%;
+  padding: 3%;
+  font-size: 2em;
+  font-family: Oswald;
+  margin-top: 40%;
+}
+
+#arket {
+  margin: 5%;
+}
+
+#arket img {
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+}
+
+#arket h5 + p {
+  width: 50%;
+  float: left;
+  margin-bottom: 5%;
+}
+
+#arkto {
+  margin: 5%;
+}
+
+#arkto img {
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+}
+
+#arkto h5 + p {
+  width: 50%;
+  float: left;
+  margin-bottom: 15%;
+}
+
+#arktre {
+  margin: 5%;
+}
+
+#arktre img {
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+}
+
+#arktre h5 + p {
+  width: 50%;
+  float: left;
+  margin-bottom: 5%;
+}
+
+#downloadet {
+  margin: 5%;
+  width: 22%;
+  text-align: center;
+  float: left;
+}
+
+#downloadet img {
+  width: 100%;
+}
+
+#downloadto {
+  margin: 5%;
+  width: 22%;
+  text-align: center;
+  float: left;
+}
+
+#downloadto img {
+  width: 100%;
+}
+
+#downloadtre {
+  margin: 5%;
+  width: 22%;
+  text-align: center;
+  float: left;
+}
+
+#downloadtre img {
+  width: 100%;
+}
+
+#downloadfire {
+  margin: 5%;
+  width: 22%;
+  text-align: center;
+  float: left;
+}
+
+#downloadfire img {
+  width: 100%;
+}
+
+#downloadfem {
+  margin: 5%;
+  width: 22%;
+  text-align: center;
+  float: left;
+}
+
+#downloadfem img {
+  width: 100%;
+}
+
+#downloadseks {
+  margin: 5%;
+  width: 22%;
+  text-align: center;
+  float: left;
+}
+
+#downloadseks img {
+  width: 100%;
+}
+
 #bokstre {
   /*position: relative;*/
   background: url("../billeder/moenster.png");
