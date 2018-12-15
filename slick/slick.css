@@ -2,9 +2,10 @@
 .slick-slider
 {
     position: relative;
-
+    float: left;
     display: block;
     box-sizing: border-box;
+
 
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -84,7 +85,7 @@
 }
 [dir='rtl'] .slick-slide
 {
-    float: right;
+    float: left;
 }
 .slick-slide img
 {
@@ -116,4 +117,13 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+@media only screen and (min-width: 700px) {
+.slick-slider {
+  max-width: 45%;
+}
+
+}
+
 }
