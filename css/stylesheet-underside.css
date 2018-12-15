@@ -29,14 +29,14 @@ h1 {
     font-family: Oswald;
     color: #004e3c;
 }
-h2 {
+/*h2 {
     margin-top: 6%;
     margin-bottom: 7%;
     font-size: 3.3em;
     float: left;
     font-family: Oswald;
     color: #004e3c;
-}
+}*/
 
 h4 {
     background-color: gainsboro;
@@ -160,13 +160,13 @@ nav li a {
   clear: both;
 }
 
-#boksettitel {
+#boksettitel h2 {
   background-color: lightgrey;
   text-align: center;
   color: #004e3c;
   border-radius: 5%;
   padding: 3%;
-  font-size: 1em;
+  font-size: 2em;
   font-family: Oswald;
 }
 
