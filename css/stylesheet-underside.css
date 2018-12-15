@@ -29,6 +29,15 @@ h1 {
     font-family: Oswald;
     color: #004e3c;
 }
+
+h6 {
+    margin-top: 6%;
+    margin-bottom: 7%;
+    font-size: 3.5em;
+    float: left;
+    font-family: Oswald;
+    color: #004e3c;
+}
 /*h2 {
     margin-top: 6%;
     margin-bottom: 7%;
@@ -409,22 +418,56 @@ nav li a {
   width: 100%;
 }
 
-#bokstre {
-  /*position: relative;*/
-  background: url("../billeder/moenster.png");
+#betalttitel {
   width: 100%;
-  height: 100%;
-  margin-top: 5%;
 }
-#boksfire {
-  /*position: relative;*/
-  background: url("../billeder/moenster.png");
-  width: 100%;
-  height: 100%;
-  margin-top: 5%;
-}
-.downloads {
 
+#siteiconbetalt {
+  width: 12%;
+  float: left;
+  padding: 0;
+  margin-right: 3%;
+  margin-left: 4%;
+}
+
+#siteiconbetalt img {
+  width: 100%;
+}
+
+#titelbetalt {
+  width: 80%;
+  float: left;
+}
+
+.bokstre {
+  /*position: relative;*/
+  background: url("../billeder/moenster.png");
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+
+#bokstrefelt {
+  width: 90%;
+  margin: 5%;
+  float: left;
+}
+
+#bokstretitel h2 {
+  background-color: lightgrey;
+  text-align: center;
+  color: #004e3c;
+  border-radius: 5%;
+  padding: 3%;
+  font-size: 2em;
+  font-family: Oswald;
+}
+
+.boksfire {
+  background: url("../billeder/moenster.png");
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
 }
 
 #facebook {
