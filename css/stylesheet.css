@@ -115,6 +115,7 @@ nav li a {
     height: auto;
     float: left;
     margin-top: 2%;
+    margin-bottom: -2%;
 }
 
 #forsidebillede img {
@@ -323,10 +324,15 @@ iframe {
 }
 
 iframe {
-  width: 40%;
-
+  width: 45%;
+float: left;
 }
 
+.instagram {
+float: left;
+max-width: 45%;
+
+}
 
 }
 
