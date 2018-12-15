@@ -692,6 +692,27 @@ nav li a {
 /* breakpoints begyndt*/
 @media only screen and (min-width: 600px) {
 
+  .bokset {
+    height: 1800px;
+}
+
+#arket h5 + p {
+  margin-bottom: 20%;
+}
+
+#boksto{
+  height: 1350px;
+}
+
+#arkto h5 + p {
+  margin-bottom: 25%;
+}
+
+#downloadfem {
+  margin-top: 8.1%;
+
+}
+
   #facebook {
     width: 20%;
     margin-left: 5%;
@@ -726,9 +747,17 @@ nav li a {
 }
 
 @media only screen and (min-width: 700px) {
+  .bokset {
+    height: 1950px;
+}
+
+.bokstre{
+  margin-top: 2%;
+}
 
 
 }
+
 
 @media only screen and (min-width: 900px) {
 
@@ -743,8 +772,14 @@ nav li a {
   #navdesktop {
       display: block;
       text-align: center;
-      padding-top: 10%;
+      padding-top: 5%;
   }
+
+
+  #logo{
+    margin-left: 3%;
+  }
+
 
   #navdesktop li {
       display: inline;
@@ -756,6 +791,13 @@ nav li a {
   #navdesktop li a {
       padding: 0.3em;
   }
+
+.bokset {
+  height: 2500px;
+}
+
+
+
 
   #facebook {
     width: 6%;
