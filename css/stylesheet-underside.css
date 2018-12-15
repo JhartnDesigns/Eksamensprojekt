@@ -166,7 +166,7 @@ nav li a {
   color: #004e3c;
   border-radius: 5%;
   padding: 3%;
-  font-size: 2em;
+  font-size: 1em;
   font-family: Oswald;
 }
 
@@ -390,15 +390,34 @@ nav li a {
 @media only screen and (min-width: 700px) {
 
 
-
-
 }
 
 @media only screen and (min-width: 900px) {
 
-#navmobile {
-  display: none;
-}
+  #navmobile {
+    display: none;
+  }
+
+  #navikon {
+    display: none;
+  }
+
+  #navdesktop {
+      display: block;
+      text-align: center;
+      padding-top: 10%;
+  }
+
+  #navdesktop li {
+      display: inline;
+      font-size: 1em;
+      margin: 0.9em;
+      text-decoration: underline;
+  }
+
+  #navdesktop li a {
+      padding: 0.3em;
+  }
 
   #facebook {
     width: 6%;
