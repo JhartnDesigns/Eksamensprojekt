@@ -778,13 +778,14 @@ nav li a {
 
   #logo{
     margin-left: 3%;
+    width: 14%;
   }
 
 
   #navdesktop li {
       display: inline;
       font-size: 1em;
-      margin: 0.9em;
+      margin: 0.8em;
       text-decoration: underline;
   }
 
@@ -793,9 +794,126 @@ nav li a {
   }
 
 .bokset {
-  height: 2500px;
+  height: 750px;
 }
 
+#spilet{
+  width: 25%;
+  margin-left: 9%;
+}
+
+#billedeet{
+  width: 90%;
+}
+
+
+#spilto{
+  width: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+#billedeto {
+  width: 100%;
+}
+
+#spiltre{
+  width: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+#billedetre{
+  width: 114%;
+}
+
+#laeringsark {
+  width: 45%;
+  float: left;
+}
+
+.downloads {
+  width: 45%;
+  float: right;
+}
+
+#bokstotitelto h2 {
+  margin-top: 0;
+}
+
+
+#downloadet {
+margin-left: 42%;
+  margin-right: 35%;
+  width: 12%;
+ }
+
+ #downloadto {
+   margin-left: 42%;
+   margin-right: 35%;
+   width: 12%;
+  }
+
+
+  #downloadtre {
+    margin-left: 42%;
+    margin-right: 35%;
+    width: 12%;
+   }
+
+
+   #downloadfire {
+     margin-left: 42%;
+     margin-right: 35%;
+     width: 12%;
+    }
+
+    #downloadfem {
+      margin-left: 42%;
+      margin-right: 35%;
+      width: 12%;
+     }
+
+     #downloadseks {
+       margin-left: 42%;
+       margin-right: 35%;
+       width: 12%;
+      }
+
+
+#arket h5 + p {
+  margin-bottom: 40%;
+}
+
+#boksto{
+  height: 850px;
+}
+
+#arkto h5 + p {
+  margin-bottom: 40%;
+}
+
+
+.boksfire{
+  width: 40%;
+  height: 700px;
+  margin-left: 10%;
+}
+
+#videoet{
+  width: 40%;
+  float: left;
+  margin-top: 6%;
+}
+
+
+#videoto{
+  width: 40%;
+  float: left;
+  margin-top: 6%;
+}
 
 
 
