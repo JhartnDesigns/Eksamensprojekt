@@ -109,6 +109,16 @@ ul {
     float: right;
 }
 
+/* hover effekt begyndt*/
+#navdesktop ul li a:hover {
+  color: #083D95;
+	font-weight: bold;
+
+}
+/*hover effekt slut*/
+
+
+
 #navikon a{
     font-size: 2em;
     padding: 2%;
