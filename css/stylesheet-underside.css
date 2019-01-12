@@ -1,7 +1,7 @@
 /*Generel styling*/
 
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.no-js #loader { display: none;}
+/*.js #loader { display: block; position: absolute; left: 100px; top: 0; }*/
 .se-pre-con {
 	position: fixed;
 	left: 0px;
@@ -190,10 +190,12 @@ nav li a {
 
 .bokset {
   background-image: url("../billeder/moenster.png");
+	background-size: cover;
   /*position: relative;*/
   width: 100%;
   height: 1650px;
   clear: both;
+
 }
 
 #boksettitel h2 {
@@ -303,11 +305,13 @@ nav li a {
 
 #bokstotitelet {
   background-image: url(../billeder/moenster.png);
+	background-size: cover;
   border-radius: 5%;
 }
 
 #bokstotitelto {
   background-image: url(../billeder/moenster.png);
+	background-size: cover;
   border-radius: 5%;
 }
 
@@ -467,6 +471,7 @@ nav li a {
 
 .bokstre {
   background: url("../billeder/moenster.png");
+	background-size: cover;
   width: 100%;
   height: 100%;
   margin-top: 20%;
@@ -544,6 +549,7 @@ nav li a {
 
 #boksfiretitel {
   background-image: url(../billeder/moenster.png);
+	background-size: cover;
   border-radius: 5%;
 }
 
@@ -855,8 +861,6 @@ nav li a {
 
 /*chatbox slut*/
 
-
-
 }
 
 
@@ -944,26 +948,23 @@ nav li a {
   margin-top: 0;
 }
 
-
-#downloadet {
-margin-left: 42%;
+	#downloadet {
+	margin-left: 42%;
   margin-right: 35%;
   width: 12%;
  }
 
- #downloadto {
+ 	#downloadto {
    margin-left: 42%;
    margin-right: 35%;
    width: 12%;
   }
 
-
-  #downloadtre {
+	#downloadtre {
     margin-left: 42%;
     margin-right: 35%;
     width: 12%;
    }
-
 
    #downloadfire {
      margin-left: 42%;
@@ -971,18 +972,17 @@ margin-left: 42%;
      width: 12%;
     }
 
-    #downloadfem {
+   #downloadfem {
       margin-left: 42%;
       margin-right: 35%;
       width: 12%;
      }
 
-     #downloadseks {
-       margin-left: 42%;
-       margin-right: 35%;
-       width: 12%;
-      }
-
+    #downloadseks {
+     margin-left: 42%;
+     margin-right: 35%;
+     width: 12%;
+    }
 
 #arket h5 + p {
   margin-bottom: 40%;
@@ -995,7 +995,6 @@ margin-left: 42%;
 #arkto h5 + p {
   margin-bottom: 40%;
 }
-
 
 .boksfire{
   width: 40%;
@@ -1015,8 +1014,6 @@ margin-left: 42%;
   float: left;
   margin-top: 6%;
 }
-
-
 
   #facebook {
     width: 6%;
